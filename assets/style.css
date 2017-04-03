@@ -1,1 +1,80 @@
+body,
+textarea,
+input{
+    font: 13px 'Trebuchet MS',sans-serif;
+}
+
+#container{
+    right: 0;
+    position: fixed;
+}
+
+.chat{
+    max-width: 300px;
+    display: none;
+}
+
+.chat-messages,
+.chat textarea,
+.chat-name{
+    border: 1px solid dodgerblue;
+}
+
+.chat-messages{
+    height: 300px;
+    overflow-y:scroll;
+     width: 278px;
+    padding: 10px;
+}
+
+
+
+.chat-name{
+    width: 278px;
+    padding: 10px;
+    border-top: 0;
+    border-bottom: 0;
+    font-size: 15px;
+}
+
+.chat textarea{
+    width: 100%;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.chat-status{
+    color: #bbb;
+}
+
+.chat textarea,
+.chat-name{
+    outline: none;
+}
+
+form input[type=submit]{
+    font: 13px 'Trebuchet MS',sans-serif;
+    background-color: darkblue;
+    color : ghostwhite; 
+}
+
+.hideBtn{
+    margin-top: 5px; 
+    display: none;
+} 
+
+.user{
+    max-width: 300px;
+}
+
+#user{
+    outline: none;
+    width: 100%;
+}
+
+#btn1{
+    font: 13px 'Trebuchet MS',sans-serif;
+    background-color: gray;
+    color: white;
+}
 
