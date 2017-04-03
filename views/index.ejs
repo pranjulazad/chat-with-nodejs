@@ -1,1 +1,31 @@
+<html>
+<title>Chat App</title>
 
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <script src="/chat.js" type="text/javascript"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <div id='container'>
+        <div class="user">
+            <input type="text" id='user' placeholder="Username" required/>
+            <button type="button" id='btn1'>Confirm</button>
+        </div>
+        <div class="chat">
+            <select class="allUsers" id='selectUsers'><option>-Users Online-</option></select>
+            <div class="chat-messages"></div>
+            <form>
+                <div class="chat-name"></div>
+                <textarea class="msg" placeholder="Type your message"></textarea>
+                <input type="submit" value="Send Message" />
+            </form>
+            <div class="chat-status">Status : <span>Idle</span></div>
+        </div>
+        <button class='hideBtn'>Show Chat</button>
+    </div>
+</body>
+
+</html>
